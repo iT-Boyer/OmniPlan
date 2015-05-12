@@ -13,8 +13,8 @@
         <column name="Notes" width="20"/>
         <column name="Title" width="787"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t371 t38 t1 t332 t257 t2 t310 t250 t355 t344 t15 t307 t311 t305 t267 t331 t260 t314 t265 t163"/>
-        <expanded-item-notes idrefs="t398 t210 t194 t161 t252 t380 t306 t352 t304 t255 t410 t383 t404 t15 t409 t318 t253 t402 t342 t331 t407 t340 t356"/>
+        <expanded-items idrefs="t371 t1 t332 t155 t257 t2 t310 t250 t116 t131 t169 t211 t355 t344 t307 t311 t305 t267 t331 t271 t260 t314 t265 t163 t141"/>
+        <expanded-item-notes idrefs="t398 t210 t194 t161 t252 t380 t306 t352 t304 t255 t410 t383 t404 t318 t409 t253 t402 t342 t331 t407 t132 t340 t356"/>
         <selected-items-at-filter-time idrefs="t347 t208 t351 t374 t92 t100 t397 t325 t93 t348 t209 t352 t375 t94 t101 t196 t398 t326 t95 t330 t353 t349 t380 t197 t96 t102 t399 t304 t376 t331 t327 t97 t354 t381 t198 t103 t98 t305 t328 t332 t99 t355 t378 t199 t104 t382 t306 t310 t329 t333 t360 t400 t356 t383 t379 t105 t311 t307 t334 t361 t357 t401 t384 t106 t308 t312 t335 t200 t358 t402 t250 t313 t309 t340 t336 t201 t363 t403 t359 t386 t390 t251 t314 t337 t202 t341 t404 t364 t387 t248 t252 t391 t315 t342 t203 t338 t365 t405 t388 t253 t249 t320 t316 t343 t204 t339 t406 t370 t410 t393 t254 t389 t321 t317 t344 t371 t367 t411 t407 t394 t255 t322 t318 t345 t206 t210 t368 t395 t323 t319 t346 t350 t207 t373 t194 t409 t396"/>
       </outline>
       <gantt-view x="-29" y="62" w="100" h="730">
@@ -123,7 +123,7 @@
   </window>
   <project>
     <title>每日任务</title>
-    <next-task-id>412</next-task-id>
+    <next-task-id>414</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="mRa0qaWrc_5" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
@@ -184,9 +184,9 @@
       <key>serverURL</key>
       <string>https://sync.omnigroup.com:443/huosan/</string>
       <key>lastSeenChange</key>
-      <date>2015-05-12T08:33:16.806Z</date>
+      <date>2015-05-12T08:48:09.075Z</date>
       <key>last-updated</key>
-      <date>2015-05-12T08:33:19.953Z</date>
+      <date>2015-05-12T08:46:17.779Z</date>
       <key>class</key>
       <string>OPWebDAVChangeSyncAction</string>
       <key>uuid</key>
@@ -194,7 +194,7 @@
       <key>serverAccount</key>
       <string>pJEnISz_mRi</string>
       <key>etag</key>
-      <string>&quot;1db382-515de59d4a5af&quot;</string>
+      <string>&quot;1dbb6d-515de8ef115b4&quot;</string>
     </publish>
     <publish-on-save/>
     <subscribe-refresh>0</subscribe-refresh>
