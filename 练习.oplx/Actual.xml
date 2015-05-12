@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="odO_vh1DvSR">
+  <start-date>2015-02-04T00:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t4294967294">
+      <title>任务 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t4294967293">
+      <title>里程碑 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t4294967292">
+      <title>群组 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r4294967294">
+      <name>资源 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r4294967293">
+      <name>设备 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r4294967292">
+      <name>素材 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r4294967291">
+      <name>群组 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday"/>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes">
+        <event start="2015-02-09T11:00:00.000Z" end="2015-02-10T13:00:00.000Z"/>
+        <event start="2015-02-12T11:00:00.000Z" end="2015-02-13T13:00:00.000Z"/>
+      </calendar>
+    </schedule>
+    <child-resource idref="r5"/>
+    <child-resource idref="r1"/>
+    <child-resource idref="r4"/>
+    <child-resource idref="r2"/>
+    <child-resource idref="r3"/>
+  </resource>
+  <resource id="r1">
+    <name>消费品</name>
+    <type>Group</type>
+  </resource>
+  <resource id="r2">
+    <name>油漆</name>
+    <type>Material</type>
+    <units-available>0</units-available>
+  </resource>
+  <resource id="r3">
+    <name>面漆</name>
+    <type>Material</type>
+    <units-available>2</units-available>
+  </resource>
+  <resource id="r4">
+    <name>胶水</name>
+    <type>Material</type>
+  </resource>
+  <resource id="r5">
+    <name>我</name>
+    <type>Staff</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t7"/>
+    <child-task idref="t2"/>
+    <child-task idref="t3"/>
+    <child-task idref="t4"/>
+    <child-task idref="t5"/>
+    <child-task idref="t6"/>
+    <child-task idref="t8"/>
+    <child-task idref="t11"/>
+  </task>
+  <task id="t1">
+    <title>清除塑料浇口漆点</title>
+    <split/>
+    <effort>18000</effort>
+    <child-task idref="t12"/>
+    <child-task idref="t13"/>
+  </task>
+  <task id="t2">
+    <title>漆点</title>
+    <effort>7200</effort>
+    <start-constraint-date>2015-02-05T00:30:00.000Z</start-constraint-date>
+  </task>
+  <task id="t3">
+    <title>干燥油漆</title>
+    <leveled-start>2015-02-05T01:00:00.000Z</leveled-start>
+    <effort>36000</effort>
+    <start-constraint-date>2015-02-05T01:00:00.000Z</start-constraint-date>
+    <assignment idref="r4"/>
+    <assignment idref="r5"/>
+  </task>
+  <task id="t4">
+    <title>组装机翼</title>
+    <effort>3600</effort>
+  </task>
+  <task id="t5">
+    <title>干燥机翼胶水</title>
+    <effort>54000</effort>
+    <start-constraint-date>2015-02-04T00:15:00.000Z</start-constraint-date>
+  </task>
+  <task id="t6">
+    <title>将机翼粘合至机身</title>
+    <effort>3600</effort>
+  </task>
+  <task id="t7">
+    <title>磨光瑕疵</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t8">
+    <title>干燥机翼胶水</title>
+    <effort>6300</effort>
+  </task>
+  <task id="t11">
+    <title>完成的模型</title>
+    <type>milestone</type>
+  </task>
+  <task id="t12">
+    <title>清除塑料浇口漆点</title>
+    <leveled-start>2015-02-04T00:00:00.000Z</leveled-start>
+    <effort>9000</effort>
+    <start-constraint-date>2015-02-04T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t13">
+    <title>清除塑料浇口漆点</title>
+    <leveled-start>2015-02-05T00:00:00.000Z</leveled-start>
+    <effort>9000</effort>
+    <start-constraint-date>2015-02-05T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r3"/>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>
