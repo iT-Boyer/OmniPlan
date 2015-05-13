@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <window x="196" y="104" w="1219" h="953">
+    <editing-scenario>mRa0qaWrc_5</editing-scenario>
+    <view>task</view>
+    <change-tracking/>
+    <draw-folded/>
+    <status-display>basic</status-display>
+    <task-view>
+      <split-view-divider-position>1037</split-view-divider-position>
+      <outline x="0" y="0" w="1022" h="810">
+        <column name="Violations" width="20"/>
+        <column name="Notes" width="20"/>
+        <column name="Title" width="883"/>
+        <column name="Effort" width="389"/>
+        <expanded-items idrefs="t168 t312 t414 t199 t204 t155 t257 t47 t76 t2 t35 t244 t169 t72 t173 t69 t23 t295 t289 t82 t271 t298 t416 t420"/>
+        <expanded-item-notes idrefs="t75 t67 t263 t161 t88 t252 t283 t170 t213 t417 t56 t184 t69 t302 t151 t200 t73 t65 t60 t418 t176 t90 t214 t180 t66 t234 t87 t303 t74 t152 t416"/>
+        <selected-items-at-filter-time idrefs="t172 t168 t414 t235 t258 t302 t262 t285 t150 t169 t173 t213 t415 t240 t236 t263 t303 t259 t290 t151 t174 t214 t420 t241 t237 t416 t264 t291 t152 t175 t215 t417 t238 t421 t265 t292 t180 t216 t220 t418 t243 t239 t422 t176 t266 t270 t293 t289 t217 t221 t419 t244 t423 t271 t267 t294 t155 t222 t182 t218 t424 t178 t245 t272 t268 t295 t160 t223 t219 t179 t425 t246 t273 t269 t296 t161 t224 t184 t426 t430 t247 t274 t297 t158 t225 t427 t431 t275 t298 t163 t159 t226 t428 t276 t299 t164 t231 t227 t429 t277 t165 t228 t232 t278 t282 t170 t166 t412 t233 t229 t256 t300 t260 t283 t171 t167 t211 t413 t234 t301 t261 t257 t284"/>
+      </outline>
+      <gantt-view x="0" y="0" w="0" h="0">
+        <view-mode>actual</view-mode>
+        <dependency-lines/>
+        <constraints/>
+        <task-bar-label task-type="group" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <scale scale-name="Automatic" full-day-width="300">
+          <selected/>
+        </scale>
+        <scale scale-name="Day" full-day-width="1215"/>
+        <scale scale-name="Hour" full-day-width="65880"/>
+        <scale scale-name="Minute" full-day-width="64800"/>
+        <scale scale-name="Month" full-day-width="34.5"/>
+        <scale scale-name="Quarter" full-day-width="9.6"/>
+        <scale scale-name="Week" full-day-width="162"/>
+        <scale scale-name="Year" full-day-width="2.3625"/>
+      </gantt-view>
+    </task-view>
+    <resource-view>
+      <split-view-divider-position>306</split-view-divider-position>
+      <outline x="0" y="0" w="306" h="846">
+        <column name="IM" width="20"/>
+        <column name="Notes" width="20"/>
+        <column name="Type" width="49"/>
+        <column name="Resource" width="121"/>
+        <column name="#" width="75"/>
+      </outline>
+      <timeline x="232" y="0" w="703" h="846">
+        <task-bar-label task-type="group" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="right">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="right">
+          <key/>
+        </task-bar-label>
+        <scale scale-name="Automatic" full-day-width="300">
+          <selected/>
+        </scale>
+        <scale scale-name="Day" full-day-width="1215"/>
+        <scale scale-name="Hour" full-day-width="65880"/>
+        <scale scale-name="Minute" full-day-width="64800"/>
+        <scale scale-name="Month" full-day-width="34.5"/>
+        <scale scale-name="Quarter" full-day-width="9.6"/>
+        <scale scale-name="Week" full-day-width="162"/>
+        <scale scale-name="Year" full-day-width="2.3625"/>
+      </timeline>
+    </resource-view>
+    <calendar>
+      <split-view-divider-position>290</split-view-divider-position>
+      <outline x="0" y="0" w="275" h="800">
+        <column name="IM" width="20"/>
+        <column name="Notes" width="20"/>
+        <column name="Type" width="49"/>
+        <column name="Resource" width="139"/>
+        <column name="Custom Work Week" width="20"/>
+        <column name="Schedule Exception" width="20"/>
+      </outline>
+    </calendar>
+  </window>
+  <project>
+    <title>每日任务</title>
+    <next-task-id>432</next-task-id>
+    <next-resource-id>2</next-resource-id>
+    <scenario id="mRa0qaWrc_5" name="Actual" filename="Actual.xml"/>
+    <date-display dates="true" times="true" seconds="false"/>
+    <numbering-style>wbs</numbering-style>
+    <auto-level/>
+    <critical-path-slack>0</critical-path-slack>
+    <currency-format>￥ 1,234.56</currency-format>
+    <duration-format hours-per-day="8" hours-per-week="40" hours-per-month="160" hours-per-year="1920" hours="true" days="true" weeks="true"/>
+    <effort-format hours-per-day="8" hours-per-week="40" hours-per-month="160" hours-per-year="1920" hours="true" days="true" weeks="true"/>
+    <base-style>
+      <style/>
+    </base-style>
+    <column-title-style>
+      <style>
+        <value key="font-weight">9</value>
+        <value key="paragraph-alignment">center</value>
+      </style>
+    </column-title-style>
+    <note-style>
+      <style>
+        <value key="font-family">Helvetica</value>
+        <value key="font-fill">
+          <color w="0.334677"/>
+        </value>
+        <value key="font-size">11</value>
+      </style>
+    </note-style>
+    <standard-task-style>
+      <style/>
+    </standard-task-style>
+    <overdue-task-style>
+      <style/>
+    </overdue-task-style>
+    <completed-task-style>
+      <style/>
+    </completed-task-style>
+    <group-task-style>
+      <style>
+        <value key="font-weight">9</value>
+      </style>
+    </group-task-style>
+    <milestone-task-style>
+      <style/>
+    </milestone-task-style>
+    <resource-style>
+      <style/>
+    </resource-style>
+    <not-editable-style>
+      <style>
+        <value key="font-fill">
+          <color w="0.334677"/>
+        </value>
+      </style>
+    </not-editable-style>
+    <publish publish-allocations="true" subscribe-to-allocations="true">
+      <key>active</key>
+      <string>YES</string>
+      <key>serverURL</key>
+      <string>https://sync.omnigroup.com:443/huosan/</string>
+      <key>lastSeenChange</key>
+      <date>2015-05-12T08:33:16.806Z</date>
+      <key>class</key>
+      <string>OPWebDAVChangeSyncAction</string>
+      <key>uuid</key>
+      <string>fXRsom8bp3D</string>
+      <key>serverAccount</key>
+      <string>ezwQUn2Ft8Z</string>
+      <key>etag</key>
+      <string>&quot;1db382-515de59d4a5af&quot;</string>
+    </publish>
+    <subscribe-refresh>0</subscribe-refresh>
+    <leveling/>
+    <page-adornment>
+      <master-page-headers>
+        <header location="left">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPDocumentTitleVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </header>
+        <header location="right">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPPrintJobTimestampVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </header>
+        <footer location="left">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPDocumentFilenameVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </footer>
+        <footer location="right">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPPageNumberVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </footer>
+      </master-page-headers>
+    </page-adornment>
+  </project>
+</omniplan>
