@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="221" y="0" w="1219" h="877">
+  <window x="196" y="104" w="1219" h="953">
     <editing-scenario>mRa0qaWrc_5</editing-scenario>
     <view>task</view>
     <change-tracking/>
@@ -8,14 +8,14 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>1037</split-view-divider-position>
-      <outline x="0" y="0" w="1037" h="749">
+      <outline x="0" y="0" w="1022" h="810">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="883"/>
         <column name="Effort" width="389"/>
-        <expanded-items idrefs="t168 t301 t1 t199 t204 t92 t2 t257 t155 t35 t244 t72 t69 t23 t103 t293 t82 t298 t70 t163"/>
-        <expanded-item-notes idrefs="t67 t263 t252 t161 t88 t283 t170 t213 t56 t184 t69 t200 t60 t302 t151 t65 t214 t176 t180 t234 t66 t87 t303 t152"/>
-        <selected-items-at-filter-time idrefs="t292 t235 t166 t258 t224 t155 t270 t178 t247 t293 t213 t236 t167 t259 t282 t225 t271 t179 t294 t214 t260 t168 t237 t283 t226 t180 t272 t295 t215 t261 t169 t238 t284 t227 t158 t273 t296 t216 t170 t262 t239 t285 t228 t412 t159 t274 t182 t297 t240 t217 t171 t263 t160 t229 t413 t275 t298 t241 t172 t218 t264 t161 t184 t276 t150 t299 t219 t173 t265 t300 t231 t277 t220 t151 t243 t174 t266 t289 t301 t163 t232 t278 t221 t152 t244 t175 t290 t267 t302 t233 t164 t256 t222 t245 t176 t291 t211 t268 t303 t234 t165 t257 t223 t246 t269"/>
+        <expanded-items idrefs="t168 t312 t414 t199 t204 t155 t257 t47 t76 t2 t35 t244 t169 t72 t173 t69 t23 t295 t289 t82 t271 t298 t416 t420"/>
+        <expanded-item-notes idrefs="t75 t67 t263 t161 t88 t252 t283 t170 t213 t417 t56 t184 t69 t302 t151 t200 t73 t65 t60 t418 t176 t90 t214 t180 t66 t234 t87 t303 t74 t152 t416"/>
+        <selected-items-at-filter-time idrefs="t172 t168 t414 t235 t258 t302 t262 t285 t150 t169 t173 t213 t415 t240 t236 t263 t303 t259 t290 t151 t174 t214 t420 t241 t237 t416 t264 t291 t152 t175 t215 t417 t238 t421 t265 t292 t180 t216 t220 t418 t243 t239 t422 t176 t266 t270 t293 t289 t217 t221 t419 t244 t423 t271 t267 t294 t155 t222 t182 t218 t424 t178 t245 t272 t268 t295 t160 t223 t219 t179 t425 t246 t273 t269 t296 t161 t224 t184 t426 t430 t247 t274 t297 t158 t225 t427 t431 t275 t298 t163 t159 t226 t428 t276 t299 t164 t231 t227 t429 t277 t165 t228 t232 t278 t282 t170 t166 t412 t233 t229 t256 t300 t260 t283 t171 t167 t211 t413 t234 t301 t261 t257 t284"/>
       </outline>
       <gantt-view x="0" y="0" w="0" h="0">
         <view-mode>actual</view-mode>
@@ -111,7 +111,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="815">
+      <outline x="0" y="0" w="275" h="800">
         <column name="IM" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
@@ -123,7 +123,7 @@
   </window>
   <project>
     <title>每日任务</title>
-    <next-task-id>414</next-task-id>
+    <next-task-id>432</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="mRa0qaWrc_5" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
@@ -190,7 +190,7 @@
       <key>uuid</key>
       <string>fXRsom8bp3D</string>
       <key>serverAccount</key>
-      <string>pJEnISz_mRi</string>
+      <string>ezwQUn2Ft8Z</string>
       <key>etag</key>
       <string>&quot;1db382-515de59d4a5af&quot;</string>
     </publish>
