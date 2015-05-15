@@ -2889,6 +2889,12 @@
       <change idref="t448" attribute="title" type="string" to="密码找回  -- (用户名，验证码)"/>
     </change>
   </task-change-set>
+  <task-change-set user="huoshuguang" date="2015-05-15T09:01:36.402Z" timestamp="2015-05-15T09:01:36.402Z">
+    <change idref="t453" attribute="title" type="string" from="2. 联动支付密码" to="2. 联动支付密码( 获取，修改，重置)" resolved="yes"/>
+    <change idref="t458" attribute="title" type="string" from="3. 可投余额" to="3. 可投余额  （账户余额，油菜券余额，待收本金，待收奖金，提现到银行卡链接）" resolved="yes"/>
+    <change idref="t459" attribute="title" type="string" from="4. 累计收益" to="4. 累计收益  （总分红累加）" resolved="yes"/>
+    <change idref="t460" attribute="title" type="string" from="6.  投资记录" to="6.  投资记录  (当前投资，历史投资)" resolved="yes"/>
+  </task-change-set>
   <metadata-change-set user="pengyucheng" date="2015-03-05T02:43:25.801Z" timestamp="2015-03-05T02:43:25.801Z">
     <change idref="m1" attribute="subscribeToAllocations" type="real" from="0" to="1" resolved="yes"/>
     <change idref="m1" attribute="publishAllocations" type="real" from="0" to="1" resolved="yes"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="906" y="-9" w="1219" h="877">
+  <window x="182" y="-7" w="1219" h="877">
     <editing-scenario>mRa0qaWrc_5</editing-scenario>
     <view>task</view>
     <change-tracking/>
@@ -8,13 +8,13 @@
     <status-display>extended</status-display>
     <task-view>
       <split-view-divider-position>1218</split-view-divider-position>
-      <outline x="8" y="0" w="1218" h="770">
+      <outline x="6" y="0" w="1218" h="770">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="883"/>
         <column name="Effort" width="389"/>
-        <expanded-items idrefs="t168 t312 t414 t199 t204 t257 t47 t155 t76 t35 t244 t169 t173 t69 t23 t441 t295 t289 t82 t271 t298 t416 t442 t420"/>
-        <expanded-item-notes idrefs="t438 t176 t434 t458 t184 t180 t462 t65 t439 t435 t90 t263 t66 t161 t283 t200 t302 t416 t67 t73 t252 t60 t170 t87 t440 t213 t74 t303 t417 t69 t88 t151 t56 t75 t214 t418 t234 t152"/>
+        <expanded-items idrefs="t168 t451 t312 t199 t414 t204 t257 t47 t76 t35 t244 t169 t173 t69 t23 t441 t295 t289 t82 t271 t298 t416 t442 t420"/>
+        <expanded-item-notes idrefs="t438 t176 t434 t184 t180 t65 t439 t435 t90 t263 t66 t161 t283 t200 t302 t416 t67 t73 t252 t432 t170 t60 t87 t440 t213 t74 t303 t417 t69 t88 t151 t56 t75 t214 t418 t234 t152"/>
         <selected-items-at-filter-time idrefs="t439 t273 t440 t415 t165 t224 t298 t465 t274 t416 t166 t225 t441 t299 t466 t275 t167 t442 t226 t417 t467 t276 t443 t418 t227 t168 t468 t277 t419 t444 t228 t420 t170 t169 t469 t278 t445 t229 t171 t421 t446 t422 t172 t231 t447 t256 t173 t423 t232 t448 t282 t257 t424 t233 t150 t174 t449 t258 t175 t425 t450 t234 t151 t283 t284 t176 t426 t235 t152 t260 t451 t211 t259 t285 t452 t427 t261 t236 t453 t428 t262 t237 t178 t213 t429 t179 t263 t155 t238 t214 t430 t454 t180 t455 t239 t431 t264 t240 t215 t289 t456 t290 t182 t432 t241 t216 t300 t265 t457 t266 t158 t291 t217 t433 t301 t458 t267 t184 t292 t218 t160 t302 t159 t434 t243 t459 t293 t268 t435 t460 t161 t303 t220 t244 t219 t269 t436 t461 t245 t270 t294 t221 t295 t437 t462 t271 t163 t246 t222 t296 t438 t463 t247 t164 t272 t223 t414 t297 t464"/>
       </outline>
       <gantt-view x="0" y="0" w="0" h="0">
