@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="182" y="-7" w="1219" h="877">
+  <window x="756" y="180" w="1219" h="877">
     <editing-scenario>mRa0qaWrc_5</editing-scenario>
     <view>task</view>
     <change-tracking/>
@@ -8,14 +8,14 @@
     <status-display>extended</status-display>
     <task-view>
       <split-view-divider-position>1218</split-view-divider-position>
-      <outline x="6" y="0" w="1218" h="770">
+      <outline x="6" y="935" w="1203" h="755">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="883"/>
         <column name="Effort" width="389"/>
-        <expanded-items idrefs="t168 t451 t312 t199 t414 t204 t257 t47 t76 t35 t244 t169 t173 t69 t23 t441 t295 t289 t82 t271 t298 t416 t442 t420"/>
-        <expanded-item-notes idrefs="t438 t176 t434 t184 t180 t65 t439 t435 t90 t263 t66 t161 t283 t200 t302 t416 t67 t73 t252 t432 t170 t60 t87 t440 t213 t74 t303 t417 t69 t88 t151 t56 t75 t214 t418 t234 t152"/>
-        <selected-items-at-filter-time idrefs="t439 t273 t440 t415 t165 t224 t298 t465 t274 t416 t166 t225 t441 t299 t466 t275 t167 t442 t226 t417 t467 t276 t443 t418 t227 t168 t468 t277 t419 t444 t228 t420 t170 t169 t469 t278 t445 t229 t171 t421 t446 t422 t172 t231 t447 t256 t173 t423 t232 t448 t282 t257 t424 t233 t150 t174 t449 t258 t175 t425 t450 t234 t151 t283 t284 t176 t426 t235 t152 t260 t451 t211 t259 t285 t452 t427 t261 t236 t453 t428 t262 t237 t178 t213 t429 t179 t263 t155 t238 t214 t430 t454 t180 t455 t239 t431 t264 t240 t215 t289 t456 t290 t182 t432 t241 t216 t300 t265 t457 t266 t158 t291 t217 t433 t301 t458 t267 t184 t292 t218 t160 t302 t159 t434 t243 t459 t293 t268 t435 t460 t161 t303 t220 t244 t219 t269 t436 t461 t245 t270 t294 t221 t295 t437 t462 t271 t163 t246 t222 t296 t438 t463 t247 t164 t272 t223 t414 t297 t464"/>
+        <expanded-items idrefs="t168 t312 t451 t199 t414 t204 t257 t155 t76 t47 t2 t35 t244 t169 t158 t69 t173 t23 t295 t171 t289 t82 t271 t298 t442 t163 t420"/>
+        <expanded-item-notes idrefs="t438 t176 t434 t184 t180 t65 t439 t161 t90 t263 t66 t435 t200 t283 t302 t416 t67 t73 t252 t60 t170 t432 t87 t440 t213 t303 t74 t417 t69 t179 t56 t151 t75 t88 t214 t418 t234 t152"/>
+        <selected-items-at-filter-time idrefs="t284 t436 t172 t168 t414 t235 t441 t302 t258 t262 t464 t285 t150 t213 t169 t173 t415 t236 t240 t442 t263 t438 t303 t465 t290 t151 t259 t214 t174 t416 t241 t420 t237 t439 t264 t466 t291 t152 t175 t215 t421 t238 t417 t265 t467 t292 t176 t180 t220 t418 t422 t239 t243 t445 t270 t266 t216 t468 t289 t293 t221 t217 t423 t244 t419 t446 t271 t267 t469 t294 t155 t222 t178 t182 t218 t424 t245 t451 t272 t268 t447 t295 t160 t223 t179 t219 t425 t246 t448 t269 t273 t452 t296 t161 t184 t224 t426 t430 t247 t453 t274 t449 t297 t158 t225 t431 t427 t454 t275 t298 t163 t159 t226 t428 t432 t455 t276 t299 t164 t231 t227 t429 t433 t460 t277 t456 t165 t228 t232 t434 t457 t461 t278 t282 t170 t166 t233 t229 t435 t256 t260 t300 t462 t458 t283 t167 t211 t171 t234 t440 t257 t301 t261 t463 t459"/>
       </outline>
       <gantt-view x="0" y="0" w="0" h="0">
         <view-mode>actual</view-mode>
@@ -62,14 +62,14 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="306" h="846">
+      <outline x="0" y="0" w="291" h="755">
         <column name="IM" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="121"/>
         <column name="#" width="75"/>
       </outline>
-      <timeline x="240" y="0" w="703" h="846">
+      <timeline x="91" y="0" w="869" h="755">
         <task-bar-label task-type="group" position="left">
           <key>Title</key>
         </task-bar-label>
@@ -111,7 +111,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="815">
+      <outline x="0" y="0" w="275" h="724">
         <column name="IM" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
@@ -190,7 +190,7 @@
       <key>uuid</key>
       <string>fXRsom8bp3D</string>
       <key>serverAccount</key>
-      <string>pJEnISz_mRi</string>
+      <string>ezwQUn2Ft8Z</string>
       <key>etag</key>
       <string>&quot;1db382-515de59d4a5af&quot;</string>
     </publish>
